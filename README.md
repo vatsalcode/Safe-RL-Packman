@@ -54,7 +54,3 @@ This plot is against the losses in a window of 10 learning versus the episode nu
 
 ### Unsafe actions windowed vs Episode
 Unsafe actions in the context of shielding is an action that leads to a state which is at a Manhattan distance of less than 2 from the ghost. The reason behind keeping a distance of 2 is that this is an adversarial game in which the ghost takes an action after Pacman has taken an action. We would like to call any action unsafe that can lead to a state where the Pacman can make a move which can kill the Pacman.
-
-## Results
-
-The results are discussed in our [report](report.pdf) 
